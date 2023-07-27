@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_HarnessHandOn_1690462348871-pr-trigger-input-set
+  identifier: Build_HarnessHandOn_1690462348871prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_HarnessHandOn_1690462348871
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
